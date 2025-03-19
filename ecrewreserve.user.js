@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        eCrew Reserve Highligher
-// @version     1.1
+// @version     1.2
 // @grant       none
 // @require     https://code.jquery.com/jquery-3.6.3.min.js
 // @include     https://ecrew.horizonair.com/docs/creditsort/*
