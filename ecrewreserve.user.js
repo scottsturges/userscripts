@@ -4,7 +4,7 @@
 // @grant       none
 // @require     https://code.jquery.com/jquery-3.6.3.min.js
 // @include     https://ecrew.horizonair.com/docs/creditsort/*
-// @downloadURL https://github.com/scottsturges/userscripts/raw/master/ecrewreserve.user.js
+// @downloadURL https://github.com/scottsturges/userscripts/raw/main/ecrewreserve.user.js
 // ==/UserScript==
 
 // https://ecrew.horizonair.com/docs/creditsort/
