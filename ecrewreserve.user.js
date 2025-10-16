@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        eCrew Reserve Highligher
-// @version     1.2
+// @version     1.3
 // @grant       none
 // @require     https://code.jquery.com/jquery-3.6.3.min.js
 // @include     https://ecrew.horizonair.com/docs/creditsort/*
@@ -11,7 +11,7 @@
 
 var waitForJQuery = setInterval(function () {
     if (typeof $ != 'undefined') {
-        $("table tr td:contains('Horizon')").next().html('<a href="https://ecrew.horizonair.com/docs/creditsort/SEA_FD_STBRP.htm">SEA</a> <a href="https://ecrew.horizonair.com/docs/creditsort/ANC_FD_STBRP.htm">ANC</a> <a href="https://ecrew.horizonair.com/docs/creditsort/PDX_FD_STBRP.htm">PDX</a> <a href="https://ecrew.horizonair.com/docs/creditsort/PAE_FD_STBRP.htm">PAE</a> <a href="https://ecrew.horizonair.com/docs/creditsort/GEG_FD_STBRP.htm">GEG</a> <a href="https://ecrew.horizonair.com/docs/creditsort/BOI_FD_STBRP.htm">BOI</a> <a href="https://ecrew.horizonair.com/docs/creditsort/MFR_FD_STBRP.htm">MFR</a>');
+        $("body").prepend('<div style="font-size: 14pt; font-weight: bold"><a href="https://ecrew.horizonair.com/docs/creditsort/SEA_FD_STBRP.htm">SEA</a> <a href="https://ecrew.horizonair.com/docs/creditsort/ANC_FD_STBRP.htm">ANC</a> <a href="https://ecrew.horizonair.com/docs/creditsort/PDX_FD_STBRP.htm">PDX</a> <a href="https://ecrew.horizonair.com/docs/creditsort/PAE_FD_STBRP.htm">PAE</a> <a href="https://ecrew.horizonair.com/docs/creditsort/GEG_FD_STBRP.htm">GEG</a> <a href="https://ecrew.horizonair.com/docs/creditsort/BOI_FD_STBRP.htm">BOI</a> <a href="https://ecrew.horizonair.com/docs/creditsort/MFR_FD_STBRP.htm">MFR</a></div>');
         $("table tr td:contains(\"CA-\")").css("background-color","#b5ffb0");
         $("table tr td:contains(\"STURGES\")").parent().children().css("background-color","#ffda99").css("font-weight","bold");
         $("table tr td:contains(\"YES\")").css("background-color","#fffea6");
